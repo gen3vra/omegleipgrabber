@@ -54,7 +54,7 @@
                             console.log(region);
 
                             var details = document.createElement('p');
-                            details.innerHTML = "<br/><br/><strong>Basic Details Grabbed</strong><br/><p>Continent: " + continent + "<br/>Country: " + country + "<br/>City:" + city + "<br/>Region: " + region + "</p>";
+                            details.innerHTML = "<br/><br/><strong>Basic Details Grabbed</strong><br/><p>Continent: " + continent + "<br/>Country: " + country + "<br/>City: " + city + "<br/>Region: " + region + "</p>";
                             list.appendChild(details);
                         }
                     });
